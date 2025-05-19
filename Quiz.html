@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz de Segurança</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizstyle.css">
+</head>
+<body>
+    <div class="setup-container" id="setup-container">
+        <h1>Quiz de Segurança do Trabalho</h1>
+    
+    <div class="setting-group">
+        <label for="question-count">Quantidade de perguntas:</label>
+        <input type="number" id="question-count" min="5" max="20" value="5">
+    </div>
+    
+    <div class="setting-group">
+        <label>Dificuldade:</label>
+        <div class="difficulty-options">
+            <input type="radio" id="easy" name="difficulty" value="easy" checked>
+            <label for="easy">Fácil</label>
+            
+            <input type="radio" id="medium" name="difficulty" value="medium">
+            <label for="medium">Médio</label>
+            
+            <input type="radio" id="hard" name="difficulty" value="hard">
+            <label for="hard">Difícil</label>
+
+            <input type="radio" id="expert" name="difficulty" value="expert">
+            <label for="expert">Nerdão</label>
+        </div>
+    </div>
+    
+    <button id="start-btn">Iniciar Quiz</button>
+    </div>
+
+    <div id="timer-box" class="timer-container hidden" >
+      <div id="difficulty-display"></div>
+      <span id="timer">30</span> segundos
+    </div>
+
+    <div class="quiz-container hidden" id="quiz-container">
+        <div class="progress" id="progress"></div>
+        <div class="question" id="question-text"></div>
+        <div class="options" id="options-container"></div>
+        <div class="feedback" id="feedback"></div>
+        <button id="next-btn" class="hidden">Próxima Pergunta</button>
+    </div>
+
+    <div id="results" class="hidden"></div>
+
+    <script type="module" src="quizscript.js"></script>
+</body>
+</html>

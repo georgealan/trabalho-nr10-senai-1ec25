@@ -1,41 +1,16 @@
+/* Reset e estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
 }
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.horizontal-scroll-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-.horizontal-container {
-    width: 100vw;
-    overflow: hidden;
-}
-.horizontal-scroll {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
-    overflow: -moz-scrollbars-none; /* Old versions of Firefox */
-    -webkit-scrollbar {
-        display: none; /* Safari and Chrome */
-    }
-}
-.horizontal-scroll section {
-    min-width: 100vw;
-    flex-shrink: 0;
-}
+
 h1, h3 {
     font-size: 3rem;
     color: white;

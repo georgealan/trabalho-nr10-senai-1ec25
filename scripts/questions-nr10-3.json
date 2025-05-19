@@ -1,0 +1,355 @@
+[
+  {
+      "id": 1,
+      "question": "De acordo com a Norma Regulamentadora 6 (NR 6), que trata dos equipamentos de proteção individuais (EPI), são equipamentos utilizados com objetivo de proteger o trabalhador contra choques elétricos a",
+      "options": [
+          "manga, a meia e o capacete",
+          "luva, a meia e o calçado",
+          "luva, o capacete e o calçado",
+          "braçadeira, a luva e o calçado",
+          "perneira, a manga e a luva"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+          "correct": "Correto! Os EPIs para proteção contra choques elétricos são: luva isolante, capacete classe B e calçado isolante.",
+          "incorrect": "Incorreto. A resposta certa é luva, o capacete e o calçado, que são os EPIs adequados para proteção contra choques elétricos. \n Meia não é EPI elétrico, \n Braçadeira (mangote) é para solda, não para choque, \n Perneira e manga são para riscos térmicos-mecânicos, não elétricos."
+      }
+  },
+  {
+      "id": 2,
+      "question": "Diversos equipamentos devem ser usados pelo trabalhador no uso específico de suas atribuições, como por exemplo, capacete, mangas e mangotes, máscara, colete e perneiras. \n\n São equipamentos que protegem a cabeça e a face, respectivamente,",
+      "options": [
+          "o capacete e a máscara",
+          "o capacete e o colete",
+          "o capacete e as perneiras",
+          "o capacete e as mangas e mangotes",
+          "as mangas e mangotes e as perneiras"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! A resposta certa é o capacete e a máscara.",
+          "incorrect": "Incorreto. O capacete protege a cabeça contra impactos, quedas de objetos, choques elétricos (dependendo do tipo), entre outros riscos. \n E a máscara protege a face (ou parte dela, como nariz e boca) contra poeiras, vapores químicos, aerossóis ou respingos, dependendo do tipo (ex.: máscara respiratória ou máscara de solda)."
+          
+      }
+  },
+  {
+      "id": 3,
+      "question": "Os Equipamentos de Proteção Individual (EPI) para uso em eletricidade devem atender às orientações constantes nas normas de segurança, entre as quais consta que a(o)",
+      "options": [
+          "especificação das luvas deve ser de acordo com o nível de tensão do local de trabalho.",
+          "calçado para uso em eletricidade pode substituir as luvas em locais em nível Baixa Tensão.",
+          "calçado, capacete e luvas são equipamentos suficientes para a proteção em qualquer trabalho em eletricidade.",
+          "O uso de colete do tipo gaiola de Faraday é necessário em locais em nível Extra Alta Tensão.",
+          "capacete para uso em eletricidade deve ser dotado de viseira."
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! (NR 10 e normas técnicas): As luvas isolantes devem ser classificadas conforme a tensão elétrica do local \n (ex.: Classe 00 para até 500V, Classe 3 para até 26.500V), conforme NBR 10622 e NR 10.2.9.",
+          "incorrect": "Incorreto. Calçados isolantes NÃO substituem luvas, mesmo em Baixa Tensão (BT). São complementares. \n Colete gaiola de Faraday não é EPI padrão para eletricidade. \n Capacetes para eletricidade (Classe B) não exigem viseira por padrão. \n A viseira é opcional (proteção contra arco elétrico, mas não é requisito básico)."
+      }
+  },
+  {
+      "id": 4,
+      "question": "Segundo a NR 6, que regulamenta a utilização dos Equipamentos de Proteção Individual EPI, cabe à construtora que fornece EPI para uso de seus trabalhadores,",
+      "options": [
+          "fornecer ao empregado, a preço de custo, o EPI adequado ao risco, em perfeito estado de conservação e funcionamento.",
+          "adquirir somente o EPI aprovado pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho.",
+          "se responsabilizar pela guarda e conservação do EPI.",
+          "se responsabiliza pela manutenção da qualidade do EPI que deu origem ao Certificado de Aprovação.",
+          "estabelecer os regulamentos para aprovação de EPI."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+          "correct": "Correto! O empregador (no caso, a construtora) deve adquirir apenas EPIs com Certificado de Aprovação (CA) válido, emitido pelo órgão nacional competente (MTE).",
+          "incorrect": "Incorreto. O empregador (no caso, a construtora) deve adquirir apenas EPIs com Certificado de Aprovação (CA) válido, emitido pelo órgão nacional competente (MTE)."
+      }
+  },
+  {
+      "id": 5,
+      "question": "Para se efetuarem serviços de manutenção em uma subestação, sem que seja necessário tirá-la de serviço por algum tempo, são utilizados dispositivos ou equipamentos de proteção individual para os trabalhadores. \n\n Tais dispositivos ou equipamentos são:",
+      "options": [
+          "capacete de proteção tipo aba frontal com viseira, luva isolante de borracha, calçado de proteção tipo condutivo, sinalizador strobo e fita de sinalização",
+          "capacete de proteção tipo aba frontal com viseira, luva isolante de borracha, grade metálica dobrável, cinturão de segurança tipo paraquedista",
+          "capacete de proteção tipo aba frontal com viseira, luva isolante de borracha, calçado de proteção tipo condutivo e cinturão de segurança tipo paraquedista.",
+          "vestimenta de proteção do tipo condutiva, fita de sinalização, manta isolante, calçado de proteção do tipo condutivo",
+          "grade metálica dobrável, calçado de proteção tipo condutivo, fita isolante, luva isolante, capacete de proteção tipo aba frontal com viseira"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+          "correct": "Correto! Outros itens como manta isolante ou grade metálica são equipamentos de proteção coletiva (EPCs), não individuais. Fita de sinalização e sinalizador strobo são acessórios de segurança, mas não EPIs prioritários para risco elétrico direto.",
+          "incorrect": "Incorreto. Outros itens como manta isolante ou grade metálica são equipamentos de proteção coletiva (EPCs), não individuais. Fita de sinalização e sinalizador strobo são acessórios de segurança, mas não EPIs prioritários para risco elétrico direto."
+      }
+  },
+  {
+      "id": 6,
+      "question": "Para a execução de tarefas em ambientes confinados, sujeitos a níveis muito altos de ruído, gases e vapores tóxicos ou partículas em suspensão, devem-se tomar certos cuidados com a proteção individual dos trabalhadores. Os dispositivos de EPI que devem ser utilizados para a execução de atividades nesses ambientes são:",
+      "options": [
+          "respirador purificador de ar (descartável), protetor auditivo tipo concha, luva isolante, calçado tipo antiderrapante e fita isolante",
+          "respirador purificador de ar (com filtro), colete de sinalização refletivo, óculos de segurança (lente incolor) e perneira de segurança",
+          "respirador purificador de ar (com filtro), vestimenta de proteção tipo condutiva, óculos de segurança (lente incolor) e colete de sinalização refletivo",
+          "respirador purificador de ar (com filtro), capacete de proteção tipo aba frontal com viseira, protetor auditivo tipo inserção (plug) e óculos de segurança (lente incolor)",
+          "respirador de adução de ar (máscara autônoma), óculos de segurança (lente incolor), calçado do tipo condutivo e capacete tipo aba total"
+      ],
+      "correctOptionIndex": 4,
+      "explanation": {
+          "correct": "Correto! Em ambientes com gases tóxicos, o respirador de adução de ar (máscara autônoma) é mais seguro que respiradores com filtro, pois fornece ar limpo externo. O capacete aba total oferece melhor proteção contra impactos e partículas. O calçado condutivo pode ser necessário se houver risco elétrico associado.",
+          "incorrect": "Incorreto. Reveja o conteúdo, estude mais o assunto."
+      }
+  },
+  {
+      "id": 7,
+      "question": "Com o objetivo de evitar o contato e a exposição ao risco ambiental e a proteção de riscos que podem ameaçar a segurança e a saúde no trabalho, são usados Equipamentos de Proteção Coletiva (EPC) e Equipamentos de Proteção Individual (EPI). \n\n Nesse sentido, pode-se concluir que",
+      "options": [
+          "capacete, luvas, relé, disjuntor, botas, colete de sinalização, manga de proteção isolante de borracha e máscaras são consideradas EPC.",
+          "cerca de contenção, pára-raios, cone e grade de sinalização, sistemas de exaustão e aterramento elétrico são considerados EPI.",
+          "óculos de segurança, capacete de proteção tipo aba frontal com viseira, protetor auditivo tipo concha, luva isolante de borracha e perneira de segurança são considerados EPI.",
+          "o empregador não é obrigado a fornecer ao empregado os EPI necessários e adequados ao trabalho que está sendo realizado.",
+          "o empregado deve buscar, por sua própria conta, o conhecimento necessário para o uso adequado dos equipamentos EPI, sendo também responsável pela substituição dos equipamentos defeituosos."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+          "correct": "Correto! Óculos de segurança, capacete, protetor auditivo, luva isolante e perneira são EPIs típicos, conforme definido pela NR-6. Todos os itens listados são de uso individual e protegem o trabalhador contra riscos específicos.",
+          "incorrect": "Incorreto. Reveja o conteúdo, estude mais o assunto."
+      }
+  },
+  {
+      "id": 8,
+      "question": "Assim como a empresa deve preocupar-se com a segurança no trabalho, o trabalhador tem obrigações referentes ao uso do Equipamento de Proteção Individual (EPI). Dentre essas obrigações, tem-se a",
+      "options": [
+          "aquisição do EPI adequado ao risco de cada atividade",
+          "responsabilidade pela guarda e conservação do EPI",
+          "responsabilidade pela higienização e manutenção periódica do EPI",
+          "comunicação ao MTE (Ministério do Trabalho e Emprego) sobre qualquer irregularidade observada no EPI",
+          "utilização do EPI, em qualquer situação, independente da atividade realizada"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": {
+          "correct": "Correto! O trabalhador deve cuidar do EPI, guardando-o corretamente e evitando danos (NR-6, item 6.6.1). Essa é uma das principais obrigações do empregado em relação aos EPIs.",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 9,
+      "question": "Na legislação brasileira, em relação a Equipamentos de Proteção Individual (EPI) e Equipamentos de Proteção Coletivo (EPC), a NR-6 estabelece que a",
+      "options": [
+          "empresa é obrigada a fornecer o EPI a seus empregados somente em situação de emergência.",
+          "empresa, mesmo que as medidas de ordem geral ofereçam a segurança estabelecida por lei, tem de fornecer o EPI.",
+          "A fabricação desses equipamentos deve ser nacional.",
+          "Definição de um equipamento poder ou não ser considerado de proteção, não havendo certificação de EPI, cabe à Comissão Interna de Prevenção de Acidentes.",
+          "seleção do EPI adequado ao risco cabe ao empregador em empresas desobrigadas a constituir SESMT (Serviço Especializado em Engenharia de Segurança e Medicina do Trabalho)."
+      ],
+      "correctOptionIndex": 4,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 10,
+      "question": "O uso de equipamentos de proteção individual e coletiva é essencial para prevenção de acidentes na execução de instalações elétricas. O talabarte é um equipamento de proteção",
+      "options": [
+          "coletiva, utilizado para a isolação de perímetro.",
+          "coletiva, utilizado para sinalização de segurança.",
+          "individual, utilizado para proteção contra quedas com diferença de nível.",
+          "individual, utilizado para proteção auditiva.",
+          "individual, utilizado para vestimenta de proteção tipo condutiva."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 11,
+      "question": "Em relação a NR6 - Equipamentos de Proteção Individual, EPI, são feitas as afirmações a seguir:\n\n I - O EPI é fornecido gratuitamente aos empregados, em perfeito estado de conservação e funcionamento.\n II - O EPI só é de uso obrigatório enquanto as medidas de proteção coletiva estão sendo implementadas. \n III - O Certificado de Aprovação, CA, de um EPI terá validade de dois anos, sendo avaliado para revalidação pela FUNDACENTRO - Fundação Jorge Duprat Figueiredo de Segurança e Medicina do Trabalho. \n IV - Em empresas com SESMT - Serviço Especializado em Engenharia de Segurança e em Medicina do Trabalho, cabe ao mesmo recomendar ao empregador o EPI adequado à proteção do trabalhador. \n V - O empregado deve usar o EPI adequado aos riscos inerentes a sua atividade e ficará responsável pela sua guarda e manutenção. \n Estão corretas apenas as afirmativas:",
+      "options": [
+          "I, III e IV",
+          "I, III e V",
+          "I, IV e V",
+          "II, III e IV",
+          "II, IV e V"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 12,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 13,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 14,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 15,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 16,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 17,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 18,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 19,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 20,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 21,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  },
+  {
+      "id": 22,
+      "question": "",
+      "options": [
+          "",
+          "",
+          "",
+          "",
+          ""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": {
+          "correct": "Correto! ",
+          "incorrect": "Incorreto. "
+      }
+  }
+]

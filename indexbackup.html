@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Scroll Sections</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Primeiro bloco vertical -->
+    <section class="vertical" style="background-color: purple">
+        <h3>Hero Home do Site</h3>
+    </section>
+  
+    <section class="vertical more-content" style="background-color: rgb(12, 116, 156)">
+        <h3>Tópico 10.2.9</h3>
+        
+    </section>
+    
+    <!-- Primeiro bloco horizontal -->
+    <div class="horizontal-container">
+        <div class="horizontal-scroll" id="horizontal-1">
+            <section style="background-color: #1a1a2e">
+                <h1>Tópico 10.2.9.1</h1>
+            </section>
+            <section style="background-color: #16213e">
+                <h1>Chamada link para NR6</h1>
+            </section>
+        </div>
+    </div>
+
+    <div class="horizontal-container">
+        <div class="horizontal-scroll" id="horizontal-2">
+            <section style="background-color: #1a1a2e">
+                <h1>Comercialização e Utilização</h1>
+            </section>
+            <section style="background-color: #16213e">
+                <h1>Responsabilidades da Organização</h1>
+            </section>
+            <section style="background-color: #537aa8">
+                <h1>Sobre PGR</h1>
+            </section>
+            <section style="background-color: #3931aa">
+                <h1>Consequencias para a Organização</h1>
+            </section>
+            <section style="background-color: #b127c4">
+                <h1>Responsabilidades do trabalhador</h1>
+            </section>
+            <section style="background-color: #38d39f">
+                <h1>Consequencias para o Trabalhador</h1>
+            </section>
+        </div>
+    </div>
+
+    <section class="vertical" style="background-color: rgb(35, 49, 247)">
+        <h3>Equipamentos EPI</h3>
+    </section>
+
+    <div class="horizontal-container">
+        <div class="horizontal-scroll" id="horizontal-3">
+            <section style="background-color: #f3c220">
+                <h1>EPI Numero 1</h1>
+            </section>
+            <section style="background-color: #40df2b">
+                <h1>EPI Numero 2</h1>
+            </section>
+            <section style="background-color: #3189ee">
+                <h1>EPI Numero 3</h1>
+            </section>
+            <section style="background-color: #dc37e2">
+                <h1>EPI Numero 4</h1>
+            </section>
+            <section style="background-color: #e42b3b">
+                <h1>EPI Numero 5</h1>
+            </section>
+            <section style="background-color: #38d39f">
+                <h1>EPI Numero 6</h1>
+            </section>
+            <section style="background-color: #b4fa45">
+                <h1>EPI Numero 7</h1>
+            </section>
+        </div>
+    </div>
+    
+    <section class="vertical" style="background-color: rgb(250, 99, 12)">
+        <h3>Topico 10.2.9.2</h3>
+    </section>
+    
+    <div class="horizontal-container">
+        <div class="horizontal-scroll" id="horizontal-4">
+            <section style="background-color: #553c8b">
+                <h1>Vestimenta Condutibilidade</h1>
+            </section>
+            <section style="background-color: #9e579d">
+                <h1>Vestimenta Inflamabilidade</h1>
+            </section>
+            <section style="background-color: #f563bb">
+                <h1>Vestimenta Eletromagnetica</h1>
+            </section>
+            <section style="background-color: #63e4f5">
+                <h1>Proibição de uso de Adornos</h1>
+            </section>
+        </div>
+    </div>
+
+    <section class="vertical" style="background-color: rgb(129, 228, 235)">
+        <h3>Questoes NR6</h3>
+    </section>
+    
+    <section class="vertical" style="background-color: rgb(17, 241, 152)">
+        <h3>Topico 10.3</h3>
+    </section>
+
+    <div class="horizontal-container">
+        <div class="horizontal-scroll" id="horizontal-5">
+            <section style="background-color: #b2f023">
+                <h1>Sub Paginas 10.3</h1>
+            </section>
+            <section style="background-color: #553c8b">
+                <h1>Sub Paginas 10.3</h1>
+            </section>
+        </div>
+    </div>
+
+    <section class="vertical" style="background-color: rgb(243, 22, 15)">
+        <h3>Questoes 10.3</h3>
+    </section>
+
+    <section class="vertical" style="background-color: rgb(17, 241, 152)">
+        <h3>Footer com foto dos membros do grupo</h3>
+    </section>
+
+    <!--
+    Para adicionar um novo bloco vertical:
+    <section class="vertical" style="background-color: cor_desejada">
+        <h3>Seu texto aqui</h3>
+    </section>
+    
+    Para adicionar um novo bloco horizontal:
+    <div class="horizontal-container">
+        <div class="horizontal-scroll" id="horizontal-3">
+            <section style="background-color: cor1">
+                <h1>Conteúdo 1</h1>
+            </section>
+            <section style="background-color: cor2">
+                <h1>Conteúdo 2</h1>
+            </section>
+            //Adicione quantas seções quiser
+        </div>
+    </div>
+    -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+    
+    <script>
+        // Inicializa o Lenis para smooth scroll
+        const lenis = new Lenis()
+        
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+        
+        requestAnimationFrame(raf)
+        
+        // Configura os blocos horizontais dinamicamente
+        function setupHorizontalSections() {
+            // Seleciona todos os containers horizontais
+            const horizontalContainers = gsap.utils.toArray('.horizontal-container')
+            
+            horizontalContainers.forEach((container, index) => {
+                const scrollElement = container.querySelector('.horizontal-scroll')
+                const sections = gsap.utils.toArray(scrollElement.querySelectorAll('section'))
+                
+                // Calcula a largura total do scroll horizontal
+                gsap.set(scrollElement, {
+                    width: sections.length * 100 + 'vw'
+                })
+
+                // Cria a animação horizontal
+                let scrollTween = gsap.to(sections, {
+                    xPercent: -100 * (sections.length - 1),
+                    ease: 'none',
+                    scrollTrigger: {
+                        trigger: container,
+                        pin: true,
+                        scrub: 1,
+                        snap: 1 / (sections.length - 1),
+                        end: () => "+=" + (scrollElement.offsetWidth - window.innerWidth)
+                    }
+                })
+                
+                // Animações individuais para cada seção
+                sections.forEach(section => {
+                    gsap.from(section.querySelector('h1'), {
+                        opacity: 0,
+                        y: -100,
+                        scrollTrigger: {
+                            trigger: section.querySelector('h1'),
+                            containerAnimation: scrollTween,
+                            start: 'left center',
+                            toggleActions: 'play none none reverse'
+                        }
+                    })
+                })
+            })
+        }
+        
+        // Chama a função quando o DOM estiver pronto
+        document.addEventListener('DOMContentLoaded', setupHorizontalSections)
+    </script>
+</body>
+</html>
