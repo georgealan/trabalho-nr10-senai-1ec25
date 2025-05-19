@@ -1,0 +1,14 @@
+RESOLUÇÃO DAS TELAS
+
+DESKTOP
+Area útil = w1280, Gap 20, 12 colunas. Height aqui não 
+importa muito pois no desktop se usa height auto, aqui
+é só para ter um guia de posicionamento dos elementos.
+
+TABLET
+Portrait: Area útil = w768, Gap 20, 8 colunas
+Landscape: Area útil = w1024, h768, Gap 20, 8 colunas
+
+MOBILE
+Portrait: Area útil = w375, h667, Gap 10, 4 colunas
+Landscape: Area útil = w667, h375, Gap 10, 4 colunas

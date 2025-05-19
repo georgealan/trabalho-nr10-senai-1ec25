@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/light.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/regular.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/sharp.css">
+    <title>Stalion Ranch</title>
+    <link rel="icon" type="image/svg" href="assets/images/favicon.svg" sizes="16x16">
+</head>
+<body>
+    <header class="header">
+        <nav id="navbar" class="nav">
+            <img class="logo" src="assets/images/Logo.svg" alt="Logo">
+            <ul id="menu-navigation"></ul>
+            <i id="btn-open-menu-mobile" class="fa-sharp fa-regular fa-bars"></i>
+        </nav>
+    </header>
+
+    <nav id="menu-mobile-wrapper"></nav>
+
+    <main id="main">
+        <section id="hero" class="sections sec-hero" data-nav="Home">
+            <div class="filter-overlay"></div>
+            <div class="hero-content" id="hero-text">
+                <h1></h1>
+                <p></p>
+                <a class="btn-view-more" href="">View More</a>
+            </div>
+            <video id="video-bg" class="video-slider" src="assets/videos/video-01.mp4" autoplay muted></video>
+            <div class="slide-btn-container">
+                <button id="btn-slide-left" class="btn-slide left"><i class="fa-light fa-chevron-left"></i></button>
+                <button id="btn-slide-right" class="btn-slide"><i class="fa-light fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="services" class="sections sec-services" data-nav="Services">
+            <h1>First Class Services</h1>
+            <div class="services-wrapper">
+                <div class="service-box">
+                    <img src="assets/images/Equine Veterinary Care.jpg" alt="">
+                    <h2>Exceptional Equine Veterinary Care</h2>
+                    <p>
+                        Our equine hospital offer a wide range of specialized services to meet the unique needs of our 
+                        equine patients. Our team of skilled veterinarians is trained in the latest advancements in 
+                        equine medicine and employs state-of-the-art diagnostic tools to accurately assess and diagnose 
+                        your horse's health condition. 
+                    </p>
+                </div>
+
+                <div class="service-box">
+                    <img src="assets/images/Horse Training Service.jpg" alt="">
+                    <h2>Horse Training Service</h2>
+                    <p>
+                        Our horse training programs are meticulously designed to provide a progressive and holistic 
+                        approach to equine education. We believe in building a strong foundation based on trust, respect, 
+                        and effective communication between horse and rider.
+                    </p>
+                </div>
+
+                <div class="service-box">
+                    <img src="assets/images/Riding Lessons.png" alt="">
+                    <h2>Exceptional Riding Lessons</h2>
+                    <p>
+                        Our riding lessons are carefully designed to provide a holistic and progressive approach to 
+                        equestrian education. We offer a range of disciplines, including dressage, show jumping, and 
+                        cross-country, ensuring that riders can explore their passion and nurture their unique riding 
+                        style. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="testimony">
+            <h1>Our clients say</h1>
+            <div class="testimony-wrapper">
+                <img class="testimony-avatar-img" src="assets/images/avatars/client-1.png">
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <p>
+                    "I am continually impressed by the professionalism and dedication of the team at this equestrian establishment. 
+                    From the moment I walked through the doors, I was greeted with warmth and genuine care. The instructors, 
+                    trainers, and staff go above and beyond to ensure the well-being of both riders and horses. Their depth 
+                    of knowledge, attention to detail, and unwavering commitment to excellence are truly commendable. 
+                </p>
+                <h3 class="client-name">Michael Scofield</h3>
+                <p class="client-profession">Structural Engineer</p>
+            </div>
+        </div>
+        
+        <section id="breeds" class="sections sec-breeds" data-nav="Breeds">
+            <h1>Breed of horses from our ranch</h1>
+            <div class="horse-title">
+                <div class="horse-name-wraper">
+                    <i class="fa-solid fa-horse-head"></i><h2 class="horse-breed-name"></h2>
+                </div>
+                <ul class="horse-info">
+                    <li><h4>HEIGHT AT WITHERS</h4><p class="horse-height"></p></li>
+                    <li><h4>ORIGIN</h4><p class="horse-origin"></p></li>
+                    <li><h4>COLORS</h4><p class="horse-color"></p></li>
+                </ul>
+            </div>
+            <div class="breed-element">
+                <figure class="img-breed-container">
+                    <img class="horse-breed-img" src="" alt="Horse image">
+                </figure>
+                <div class="breed-buttons">
+                    <button class="btn-breed current" data-json="0">Breed 1</button>
+                    <button class="btn-breed" data-json="1">Breed 2</button>
+                    <button class="btn-breed" data-json="2">Breed 3</button>
+                    <button class="btn-breed" data-json="3">Breed 4</button>
+                    <button class="btn-breed" data-json="4">Breed 5</button>
+                    <button class="btn-breed" data-json="5">Breed 6</button>
+                </div>
+            </div>
+            <div class="breed-text">
+                <div class="text-first-cl">
+                    <p class="call-description"></p>
+                    <h2 class="tfcl-header"></h2>
+                    <p class="tfcl-body"></p>
+                </div>
+                <div class="text-second-cl">
+                    <h2 class="tscl-header"></h2>
+                    <p class="tscl-body"></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="sections sec-gallery" data-nav="Gallery">
+            <figure class="img-container item1">
+                <img class="gallery-item" data-index="0" src="assets/images/gallery/small-3.jpg" alt="Red-haired girl with straw hat hugging a horse's face">
+            </figure>
+            <figure class="img-container item2">
+                <img class="gallery-item" data-index="1" src="assets/images/gallery/small-6.jpg" alt="Bust of a brown horse">
+            </figure>
+            <figure class="img-container item3">
+                <img class="gallery-item" data-index="2" src="assets/images/gallery/medium-vertical-2.jpg" alt="Woman in a stable, holding the horse by the stirrup with one hand and stroking the horse's face with the other hand">
+            </figure>
+            <figure class="img-container item4">
+                <img class="gallery-item" data-index="3" src="assets/images/gallery/small-5.jpg" alt="Strong galloping horse that even releases dust from the dirt floor">
+            </figure>
+            <figure class="img-container item5">
+                <img class="gallery-item" data-index="4" src="assets/images/gallery/small-4.jpg" alt="Jockey girl next to her beige colored horse">
+            </figure>
+            <figure class="img-container item6">
+                <img class="gallery-item" data-index="5" src="assets/images/gallery/medium-vertical-1.jpg" alt="Woman in red checkered blouse on top of her brown horse">
+            </figure>
+            <figure class="img-container item7">
+                <img class="gallery-item" data-index="6" src="assets/images/gallery/small-7.jpg" alt="Blonde woman feeding a horse with one hand, the horse has its mouth in her hand">
+            </figure>
+            <figure class="img-container item8">
+                <img class="gallery-item" data-index="7" src="assets/images/gallery/medium-horizontal-1.jpg" alt="Several horses galloping together, dust rising from the dirt road and in the background to the left a stone building">
+            </figure>
+            <figure class="img-container item9">
+                <img class="gallery-item" data-index="8" src="assets/images/gallery/medium-horizontal-2.jpg" alt="Two men in a stable feeding hay to horses">
+            </figure>
+            <figure class="img-container item10">
+                <img class="gallery-item" data-index="9" src="assets/images/gallery/small-2.jpg" alt="A girl with her eyes closed hugging the face of a horse, their faces are together in a pose of feeling friendship, in the background a beautiful tree with yellow flowers">
+            </figure>
+            <figure class="img-container item11">
+                <img class="gallery-item" data-index="10" src="assets/images/gallery/small-1.jpg" alt="A girl with a straw hat is very smiling hugging the face of a black horse, in the background a forest with beautiful light green">
+            </figure>
+        </section>
+
+        <dialog class="gallery-modal">
+            <button class="btn-close-modal"><i class="fa-regular fa-x"></i></button>
+            <figure class="figure-modal">
+                <img class="gallery-img" src="" alt="">
+            </figure>
+            <div class="btn-gallery-wrapper">
+                <button id="btn-gallery-left" class="btn-gallery left" data-side="left"><i class="fa-light fa-chevron-left"></i></button>
+                <button id="btn-gallery-right" class="btn-gallery" data-side="right"><i class="fa-light fa-chevron-right"></i></button>
+            </div>
+        </dialog>
+
+        <div class="newsletter">
+            <div class="newsletter-box">
+                <h1>Be the first to know about our news</h1>
+                <h2>Subscribe to Our Newsletter</h2>
+            </div>
+            <div class="newsletter-form">
+                <input type="email" class="newsletter-input">
+                <input type="submit" class="newsletter-submit" value="Send">
+            </div>
+        </div>
+        
+        <section id="team" class="sections sec-team" data-nav="Team">
+            <h1>The best team of professionals</h1>
+            <div class="team-wrapper">
+                <div class="team-member-box">
+                    <img class="team-member-avatar-img" src="assets/images/avatars/team-member-img-1.png" alt="Team member image">
+                    <h2>James Bond</h2>
+                    <h3>Veterinarian</h3>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus illo eum modi, nulla, voluptas perferendis accusamus deserunt quia, ratione ipsa illum. Voluptas dolore harum quia?
+                    </p>
+                    <div class="team-social-media">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="team-member-box">
+                    <img class="team-member-avatar-img" src="assets/images/avatars/team-member-img-2.png" alt="Team member image">
+                    <h2>Lara Croft</h2>
+                    <h3>Trainer</h3>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae voluptatum ducimus corrupti, harum error aspernatur dolorum perspiciatis sequi, omnis impedit placeat molestiae repellat, eveniet hic.
+                    </p>
+                    <div class="team-social-media">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="team-member-box">
+                    <img class="team-member-avatar-img" src="assets/images/avatars/team-member-img-4.png" alt="Team member image">
+                    <h2>Jonh Wick</h2>
+                    <h3>Farmer</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi deserunt molestias modi, unde alias blanditiis nihil saepe asperiores id culpa nesciunt quisquam, minus consectetur magni!
+                    </p>
+                    <div class="team-social-media">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="team-member-box">
+                    <img class="team-member-avatar-img" src="assets/images/avatars/team-member-img-5.png" alt="Team member image">
+                    <h2>Lois Lane</h2>
+                    <h3>Veterinary</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque illum nihil eius veritatis a quidem aliquid consequuntur incidunt est libero assumenda autem sint, quasi aliquam?
+                    </p>
+                    <div class="team-social-media">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-square-facebook"></i>
+                        <i class="fa-brands fa-square-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="brands">
+            <div class="awards-wrapper">
+                <img src="assets/images/award-1.png" alt="Award stamp">
+                <img src="assets/images/award-2.png" alt="Award stamp">
+                <img src="assets/images/award-3.png" alt="Award stamp">
+                <img src="assets/images/award-4.png" alt="Award stamp">
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer-top">
+            <div class="footer-content">
+                <div class="footer-content-box">
+                    <h2>Faqs Q&A</h2>
+                    <ul class="footer-list">
+                        <a><li>The ranch has a hotel</li></a>
+                        <a><li>The ranch has security</li></a>
+                        <a><li>What are the opening hours</li></a>
+                        <a><li>There is a restaurant on the ranch</li></a>
+                        <a><li>Need to make a reservation</li></a>
+                    </ul>
+                </div>
+                <div class="footer-content-box">
+                    <h2>Services</h2>
+                    <ul class="footer-list">
+                        <a><li>Horse tour</li></a>
+                        <a><li>Equine veterinarian</li></a>
+                        <a><li>Horse training</li></a>
+                        <a><li>Riding course</li></a>
+                        <a><li>Hotel for horses</li></a>
+                        <a><li>Guest stay</li></a>
+                    </ul>
+                </div>
+                <div class="footer-content-box">
+                    <h2>Institutional</h2>
+                    <ul class="footer-list">
+                        <a><li>Discover Stallion Ranch</li></a>
+                        <a><li>About the Stallion ranch</li></a>
+                        <a><li>Investor relations</li></a>
+                        <a><li>Site map</li></a>
+                    </ul>
+                </div>
+                <div class="footer-content-box">
+                    <h2>Contact</h2>
+                    <ul class="footer-list">
+                        <a><li>ranchstallion@stallion.com</li></a>
+                        <a><li><i class="fa-solid fa-phone footer-list-icon"></i>900.123.456.7890</li></a>
+                        <h3>Follow Us</h3>
+                        <div class="footer-social-icon-wrapper">
+                            <a><li><i class="fa-brands fa-instagram"></i></li></a>
+                            <a><li><i class="fa-brands fa-square-facebook"></i></li></a>
+                            <a><li><i class="fa-brands fa-square-twitter"></i></li></a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="copyright">
+                <span> &copy;</span><span id="date"></span><span>George Alan Rufo</span>
+            </div>
+
+            <div class="udacity">
+                <p>Udacity Bertelsmann</p>
+            </div>
+
+            <nav class="owner-social-media">
+                <a href="https://www.linkedin.com/in/george-alan-fullstack-developer/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/georgealan" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            </nav>
+        </div>
+    </footer>
+
+    <button id="btn-scroll-top"><i class="fa-light fa-arrow-up"></i></button>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

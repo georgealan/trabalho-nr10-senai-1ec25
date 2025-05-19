@@ -1,0 +1,21 @@
+:root {
+    --primary: hsl(40, 86%, 61%);
+    --primary-alpha-1: hsla(41, 98%, 56%, 0.145);
+    --difficulty-color: #337ab7;
+
+    --white: hsl(0, 0%, 100%);
+    --white-alpha-6: hsla(0, 0%, 100%, 0.623);
+
+    --gray: hsl(0, 0%, 73%);
+    --gray-100: hsl(0, 0%, 79%);
+
+    --body-black-font: hsl(0, 0%, 15%);
+    --black: hsl(0, 0%, 0%);
+    --black-400: hsl(0, 0%, 6%);
+    --black-300: hsl(30, 5%, 9%);
+    --black-200: hsl(0, 0%, 17%);
+    --black-100: hsl(60, 1%, 19%);
+    --black-alpha-08: hsla(0, 0%, 0%, 0.8);
+    --black-alpha-006: hsla(0, 0%, 0%, 0.06);
+    --black-alpha-02: hsla(0, 0%, 39%, 0.2);
+}

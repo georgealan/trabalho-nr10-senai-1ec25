@@ -1,11 +1,6 @@
-:root {
-    --difficulty-color: #337ab7; /* Cor padrão */
-}
+@import url(colors.css);
+@import url(typografy.css);
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-}
 .setup-container, .quiz-container {
     max-width: 600px;
     margin: 20px auto;
