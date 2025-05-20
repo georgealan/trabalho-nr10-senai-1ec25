@@ -14,7 +14,224 @@ html{
 }
 
 body {
-    margin: 0;
     
+    
+}
+
+/* #### MAIN #### */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* #### SECTIONS #### */
+.sections {
+    height: 100vh;
+    padding: 1em;
+}
+
+/* #### LOGO #### */
+#logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    max-width: 1600px;
+    position: fixed;
+}
+.logoimg {
+    align-self: flex-start;
+}
+
+/* #### HERO #### */
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/hero-img-desk.jpg);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    max-width: 1600px;
+}
+
+
+/* #### SECAO 10.2.9 #### */
+#secao-10-2-9 {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(208, 255, 0);
+}
+
+
+/* #### SECAO 10.2.9.1 #### */
+#secao-10-2-9-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(73, 49, 211);
+}
+
+/* #### SECAO NR6 EPI #### */
+#secao-nr6-epi {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(243, 142, 27); 
+}
+
+/* #### SECAO NR6 COMERCIALIZACAO #### */
+#secao-nr6-comercializacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(218, 15, 116);
+}
+
+/* #### SECAO NR6 RESPONSABILIDADES DA ORGANZACAO #### */
+#secao-nr6-responsabilidade-organizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(255, 8, 0);
+}
+
+/* #### SECAO NR6 PGR #### */
+#secao-nr6-pgr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(74, 158, 206);
+}
+
+/* #### SECAO NR6 CONSEQUANCIAS ORGANIZACAO #### */
+#secao-nr6-consequencias-organizacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(31, 235, 31);
+}
+
+/* #### SECAO NR6 RESPONSABILIDADE TRABALHADOR #### */
+#secao-nr6-responsabilidade-trabalhador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(245, 87, 232);
+}
+
+/* #### SECAO CONSEQUANCIAS TRABALHADOR #### */
+#secao-nr6-consequencias-trabalhador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(52, 87, 6);
+}
+
+
+/* #### SECAO NR6 LISTA EQUIPAMENTOS EPI #### */
+#secao-nr6-lista-equipamentos-epi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(34, 15, 138);
+}
+
+
+/* #### SECAO 10.2.9.2 #### */
+#secao-10-2-9-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(224, 180, 130);
+}
+
+
+/* #### SECAO 10.2.9.3 #### */
+#secao-10-2-9-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(58, 155, 29);
+}
+
+
+/* #### QUIZ NR6 #### */
+#quiz-nr6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    width: 100%;
+    height: 700px;
+    max-width: 1600px;
+    background-color: rgb(172, 113, 37);
 }
 
