@@ -209,28 +209,68 @@ main {
 /* #### SECAO NR6 COMERCIALIZACAO #### */
 #secao-nr6-comercializacao {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(218, 15, 116);
+    margin-top: 8rem;
+}
+
+.secao-nr6-comercializacao-text {
+    width: 50%;
+}
+
+.secao-nr6-comercializacao-text p{
+    margin: 2rem 0 2rem 0;
+}
+
+.secao-nr6-comercializacao-text h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-comercializacao-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
 }
 
 /* #### SECAO NR6 RESPONSABILIDADES DA ORGANZACAO #### */
-#secao-nr6-responsabilidade-organizacao {
+#secao-nr6-respo-org {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(255, 8, 0);
+    margin-top: 8rem;
 }
+
+.secao-nr6-respo-org-block1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secao-nr6-respo-org-block1 h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-respo-org-block1 img {
+    margin-top: 3rem;
+}
+
+.secao-nr6-respo-org-block1 p {
+    margin: 2rem 0 2rem 0;
+}
+
+
+
 
 /* #### SECAO NR6 PGR #### */
 #secao-nr6-pgr {
