@@ -11,26 +11,31 @@ body {
 
 /* #### HEADERS #### */
 h1 {
-    font-size: 2.2em;
-    color: var(--white);
+    font-size: 2.3em;
+    color: var(--body-black-font);
+    font-weight: 700;
+}
+
+.special-header-numbered {
+    font-size: 3em;
     font-weight: 700;
 }
 
 h2 {
-    font-size: 1.8em;
-    color: var(--white);
-    font-weight: 600;
+    font-size: 1.6em;
+    color: var(--body-black-font);
+    font-weight: 500;
 }
 
 h3 {
-    font-size: 1.5em;
-    color: var(--white);
+    font-size: 1.8em;
+    color: var(--body-black-font);
     font-weight: 500;
 }
 
 h4 {
     font-size: 1.2em;
-    color: var(--white);
+    color: var(--body-black-font);
     font-weight: 400;
 }
 
@@ -40,6 +45,10 @@ h3,
 h4 {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4em;
+}
+
+.constrastheader {
+    color: var(--white);
 }
 
 /* #### TAG P #### */
