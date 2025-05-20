@@ -140,16 +140,71 @@ main {
 
 /* #### SECAO NR6 EPI #### */
 #secao-nr6-epi {
-   display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
-    max-width: 1600px;
-    background-color: rgb(243, 142, 27); 
+    height: auto;
+    max-width: 1500px;
 }
+
+.secao-nr6-epi-block1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao-nr6-epi-block1-text {
+    width: 50%;
+}
+
+.secao-nr6-epi-block1-text h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-epi-block1-text h2 {
+    margin-bottom: 2rem;
+}
+
+.secao-nr6-epi-block1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-epi-block2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+}
+
+.secao-nr6-epi-block2-text {
+    width: 50%;
+}
+
+.secao-nr6-epi-block2-text p {
+    margin: 2rem 0 2rem 0;
+}
+
+.secao-nr6-epi-block2-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-epi-block3 {
+    width: 100%;
+}
+
+.secao-nr6-epi-block3 p {
+    margin: 2rem 0 2rem 0;
+}
+
+
 
 /* #### SECAO NR6 COMERCIALIZACAO #### */
 #secao-nr6-comercializacao {
@@ -160,7 +215,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(218, 15, 116);
 }
 
@@ -173,7 +228,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(255, 8, 0);
 }
 
@@ -186,7 +241,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(74, 158, 206);
 }
 
@@ -199,7 +254,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(31, 235, 31);
 }
 
@@ -212,7 +267,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(245, 87, 232);
 }
 
@@ -225,7 +280,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(52, 87, 6);
 }
 
@@ -239,7 +294,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(34, 15, 138);
 }
 
@@ -253,7 +308,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(224, 180, 130);
 }
 
@@ -267,7 +322,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(58, 155, 29);
 }
 
@@ -281,7 +336,7 @@ main {
     padding: 2rem 1rem;
     width: 100%;
     height: 700px;
-    max-width: 1600px;
+    max-width: 1500px;
     background-color: rgb(172, 113, 37);
 }
 
