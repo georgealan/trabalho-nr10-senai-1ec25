@@ -269,8 +269,61 @@ main {
     margin: 2rem 0 2rem 0;
 }
 
+.secao-nr6-respo-org-block2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
 
+.secao-nr6-respo-org-block2-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
 
+.secao-nr6-respo-org-block2-text p {
+    margin: 1.4rem 0 1.4rem 0;
+}
+
+.secao-nr6-respo-org-block2-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-respo-org-block3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-respo-org-block3-img {
+    width: 50%;
+}
+
+.secao-nr6-respo-org-block3-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-respo-org-block3-text p {
+    margin: 1.4rem 0 1.4rem 0;
+}
+
+.secao-nr6-respo-org-block4 {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.secao-nr6-respo-org-block4 p {
+    margin: 1.4rem 0 1.4rem 0;
+}
 
 /* #### SECAO NR6 PGR #### */
 #secao-nr6-pgr {
@@ -280,35 +333,110 @@ main {
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(74, 158, 206);
+}
+
+.secao-nr6-pgr-block1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secao-nr6-pgr-block1 h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-pgr-block1-sec1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-pgr-block1-sec1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-pgr-block2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-pgr-block3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-pgr-block3 img {
+    margin: 4rem 0 4rem 0;
+}
+
+.secao-nr6-pgr-block3 h4 {
+    margin: 2rem 0 1.2rem 0;
+}
+
+.secao-nr6-pgr-block4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-pgr-block4-img {
+    width: 50%;
+}
+
+.secao-nr6-pgr-block4-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-pgr-block5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-pgr-block5 p {
+    margin: 1.4rem 0 1.4rem 0;
 }
 
 /* #### SECAO NR6 CONSEQUANCIAS ORGANIZACAO #### */
-#secao-nr6-consequencias-organizacao {
+#secao-nr6-conseq-org {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(31, 235, 31);
 }
 
+
+
+
 /* #### SECAO NR6 RESPONSABILIDADE TRABALHADOR #### */
-#secao-nr6-responsabilidade-trabalhador {
+#secao-nr6-respo-trab {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(245, 87, 232);
 }
 
 /* #### SECAO CONSEQUANCIAS TRABALHADOR #### */
