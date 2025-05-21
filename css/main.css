@@ -422,10 +422,24 @@ main {
     width: 100%;
     height: auto;
     max-width: 1500px;
+    margin: 5rem 0 5rem 0;
 }
 
+.secao-nr6-conseq-org-text h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
 
+.secao-nr6-conseq-org-text h2 {
+    margin: 0 0 1em 0;
+}
 
+.secao-nr6-conseq-org-text h3 {
+    margin: 1em 0 0 0;
+}
+
+.secao-nr6-conseq-org-text p {
+    margin: 1.5em 0 1.5em 0;
+}
 
 /* #### SECAO NR6 RESPONSABILIDADE TRABALHADOR #### */
 #secao-nr6-respo-trab {
@@ -439,6 +453,40 @@ main {
     max-width: 1500px;
 }
 
+.secao-nr6-respo-trab-block1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.secao-nr6-respo-trab-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-respo-trab-text h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-respo-trab-text p {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.secao-nr6-respo-trab-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-respo-trab-block2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4rem;
+}
+
 /* #### SECAO CONSEQUANCIAS TRABALHADOR #### */
 #secao-nr6-conseq-trab {
     display: flex;
@@ -449,8 +497,26 @@ main {
     width: 100%;
     height: auto;
     max-width: 1500px;
+    margin-top: 4rem;
 }
 
+.secao-nr6-conseq-trab-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secao-nr6-conseq-trab-text h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-conseq-trab-text h2 {
+    margin: 0 0 1em 0;
+}
+
+.secao-nr6-conseq-trab-text p {
+    margin: 1em 0 1em 0;
+}
 
 /* #### SECAO NR6 LISTA EQUIPAMENTOS EPI #### */
 #secao-nr6-lista-equip-epi {
@@ -462,8 +528,236 @@ main {
     width: 100%;
     height: auto;
     max-width: 1500px;
+    margin: 2rem 0 2rem 0;
 }
 
+.secao-nr6-lista-equip-epi-block1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.secao-nr6-lista-equip-epi-block1 h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-nr6-lista-equip-epi-block1 h2 {
+    margin: 0 0 1em 0;
+}
+
+.secao-nr6-lista-equip-epi-block1 p {
+    margin: 1em 0 1em 0;
+}
+
+.secao-nr6-lista-equip-epi-block2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block2-header {
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block2-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block2-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block2-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block3-header {
+    margin: 0 0 3rem 0;
+}
+
+.secao-nr6-lista-equip-epi-block3-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block3-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block3-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block4 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block4-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block4-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block4-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block5-header {
+    margin: 1rem 0 3rem 0;
+}
+
+.secao-nr6-lista-equip-epi-block5-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block5-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block5-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block6 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block6-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block6-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block6-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block7 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block7-header {
+    margin: 1rem 0 3rem 0;
+}
+
+.secao-nr6-lista-equip-epi-block7-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block7-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block7-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block8 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-nr6-lista-equip-epi-block8-header {
+    margin: 1rem 0 3rem 0;
+}
+
+.secao-nr6-lista-equip-epi-block8-1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-nr6-lista-equip-epi-block8-1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.secao-nr6-lista-equip-epi-block8-1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
 
 /* #### SECAO 10.2.9.2 #### */
 #secao-10-2-9-2 {
@@ -475,8 +769,164 @@ main {
     width: 100%;
     height: auto;
     max-width: 1500px;
+    margin: 5rem 0 5rem 0;
 }
 
+.secao-10-2-9-2-block1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-10-2-9-2-block1-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block1-text h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-10-2-9-2-block1-text h2 {
+    margin: 0 0 1em 0;
+}
+
+.secao-10-2-9-2-block1-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-2-block2-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block2-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block2-text h3 {
+    margin: 0 0 1em 0;
+}
+
+.secao-10-2-9-2-block3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-2-block3 h3 {
+    margin: 1em 0 1em 0;
+}
+
+.secao-10-2-9-2-block3 p {
+    margin: 0 0 1em 0;
+}
+
+.secao-10-2-9-2-block4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-2-block4-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block4-text h2 {
+    margin: 0 0 1em 0; 
+}
+
+.secao-10-2-9-2-block4-text h3 {
+    margin: 1em 0 1em 0; 
+}
+
+.secao-10-2-9-2-block4-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block5 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-2-block5 h3 {
+    margin: 1em 0 1em 0;  
+}
+
+.secao-10-2-9-2-block5 p {
+    margin: 0 0 1em 0;  
+}
+
+.secao-10-2-9-2-block6 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-2-block6-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block6-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.secao-10-2-9-2-block6-text h2 {
+    margin: 0 0 1em 0; 
+}
+
+.secao-10-2-9-2-block6-text h4 {
+    margin: 1em 0 0.3em 0; 
+}
+
+.secao-10-2-9-2-block6-text p {
+    margin: 0 0 1em 0; 
+}
+
+.secao-10-2-9-2-block7 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-2-block7 h3 {
+    margin: 1em 0 1em 0;  
+}
+
+.secao-10-2-9-2-block7 p {
+    margin: 0 0 1em 0;  
+}
 
 /* #### SECAO 10.2.9.3 #### */
 #secao-10-2-9-3 {
@@ -490,6 +940,58 @@ main {
     max-width: 1500px;
 }
 
+.secao-10-2-9-3-block1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secao-10-2-9-3-block1 h1 {
+    border-bottom: 2px solid var(--body-black-font);
+}
+
+.secao-10-2-9-3-block1 h2 {
+    margin: 0 0 1em 0;
+}
+
+.secao-10-2-9-3-block1 p {
+    margin: 1em 0 1em 0;
+}
+
+.secao-10-2-9-3-block2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.secao-10-2-9-3-block2-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.secao-10-2-9-3-block2-text h2 {
+    margin: 0 0 1em 0;    
+}
+
+.secao-10-2-9-3-block2-text p {
+    margin: 0 0 1em 0;    
+}
+
+.secao-10-2-9-3-block2-img {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.secao-10-2-9-3-block3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+}
 
 /* #### QUIZ NR6 #### */
 #quiz-nr6 {
@@ -499,7 +1001,8 @@ main {
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 100vh;
+    height: auto;
     max-width: 1500px;
+    margin: 8rem 0 10rem 0;
 }
 
