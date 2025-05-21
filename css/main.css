@@ -440,30 +440,28 @@ main {
 }
 
 /* #### SECAO CONSEQUANCIAS TRABALHADOR #### */
-#secao-nr6-consequencias-trabalhador {
+#secao-nr6-conseq-trab {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(52, 87, 6);
 }
 
 
 /* #### SECAO NR6 LISTA EQUIPAMENTOS EPI #### */
-#secao-nr6-lista-equipamentos-epi {
+#secao-nr6-lista-equip-epi {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(34, 15, 138);
 }
 
 
@@ -475,9 +473,8 @@ main {
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(224, 180, 130);
 }
 
 
@@ -489,9 +486,8 @@ main {
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: auto;
     max-width: 1500px;
-    background-color: rgb(58, 155, 29);
 }
 
 
@@ -503,8 +499,7 @@ main {
     justify-content: center;
     padding: 2rem 1rem;
     width: 100%;
-    height: 700px;
+    height: 100vh;
     max-width: 1500px;
-    background-color: rgb(172, 113, 37);
 }
 
