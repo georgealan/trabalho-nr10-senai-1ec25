@@ -5,7 +5,7 @@ function nl2br(str) {
 }
 
 // Import do arquivo JSON com as perguntas
-const response = await fetch('./questions-nr6.json');
+const response = await fetch('scripts/questions-nr6.json');
 const quizData = await response.json();
 
 // Variáveis do quiz
@@ -51,7 +51,7 @@ const difficultySettings = {
         timePerQuestion: 10,
         bonusTimer: 0.5,
         decreaseTimer: 4,
-        label: "Nerdão",
+        label: "Expert",
         color: "#800080"
     }
 };
