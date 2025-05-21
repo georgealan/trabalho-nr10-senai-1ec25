@@ -178,178 +178,146 @@
   },
   {
       "id": 12,
-      "question": "",
+      "question": "A NR6, que dispõe sobre EPI (Equipamentos de Proteção Individual), é possível afirmar que, exceto:",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Todo EPI precisa necessariamente de número CA, que garante qualidade, funcionalidade e padrão dos EPI’s.",
+          "Cabe ao empregador adquirir o EPI adequado ao risco de cada atividade e exigir o seu uso.",
+          "Cabe ao empregado utilizar o EPI apenas para a atividade a qual se destina.",
+          "O empregador deve responsabilizar-se pela guarda e conservação do EPI.",
+          "O empregador deve se responsabilizar pela higienização e manutenção periódica do EPI."
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 3,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto!",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 13,
-      "question": "",
+      "question": "Assinale a alternativa correta que possui um exemplo de Equipamento de Proteção Coletiva (EPC):",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Barreiras contra luminosidade ou radiação.",
+          "Balaclava.",
+          "Luvas.",
+          "Coletes e macacões para proteção do corpo.",
+          "Óculos e viseiras para proteção de olhos e face."
       ],
       "correctOptionIndex": 0,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto! \n EPCs são dispositivos que protegem todos os trabalhadores simultaneamente, sem depender da ação individual. \n Barreiras contra luminosidade/radiação (ex.: telas de solda, cortinas de proteção em radioterapia) são EPCs típicos, pois bloqueiam o risco para toda a equipe exposta.",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 14,
-      "question": "",
+      "question": "Cabe ao órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho, exceto:",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Estabelecer os regulamentos para aprovação de EPI.",
+          "Emitir ou renovar o CA.",
+          "Solicitar o recolhimento de amostras de EPI ao órgão regional competente em matéria de segurança e saúde no trabalho.",
+          "Fiscalizar a qualidade do EPI.",
+          "Suspender ou renovar o CA."
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 2,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto! De acordo com a NR 6, as atribuições do órgão nacional competente (MTE) incluem: \n\n A) Estabelecer normas para aprovação de EPIs (NR 6.4.1).\n B) Emitir ou renovar o CA (Certificado de Aprovação) (NR 6.4.2).\n D) Fiscalizar a qualidade do EPI (NR 6.4.3).\n E) Suspender ou cancelar o CA (NR 6.4.4).",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 15,
-      "question": "",
+      "question": "Cabe ao fabricante e ao importador de EPI, exceto:",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Comercializar ou colocar à venda somente o EPI portador de CA, emitido pelo órgão de âmbito nacional competente em matéria de segurança e saúde no trabalho.",
+          "Comercializar o EPI com manual de instruções em língua inglesa, orientando sua utilização, manutenção, processos de limpeza e higienização, restrição e demais referências ao seu uso.",
+          "Responsabilizar-se pela manutenção da qualidade do EPI que deu origem ao CA.",
+          "Promover, quando solicitado e se tecnicamente possível, a adaptação do EPI detentor de CA para pessoas com deficiência, preservando a sua eficácia.",
+          "Comercializar o EPI com as marcações previstas na norma regulamentadora."
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 1,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto!  De acordo com a NR 6, os fabricantes e importadores têm as seguintes obrigações:\n A) Comercializar apenas EPIs com Certificado de Aprovação (CA) válido (NR 6.5.1).\n C) Manter a qualidade do EPI conforme as especificações do CA (NR 6.5.3).\n D) Promover a adaptação do EPI para pessoas com deficiência, quando possível (NR 6.5.4).\n E) Comercializar o EPI com marcações obrigatórias conforme a norma (NR 6.5.5).",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 16,
-      "question": "",
+      "question": "Equipamento de Proteção Individual (EPI) que NÃO é citado na NR6:",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "capuz ou balaclava.",
+          "protetor auditivo.",
+          "respirador purificador de ar não motorizado.",
+          "braçadeira.",
+          "chuveiro lava-olhos."
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 4,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto! Por que chuveiro lava-olhos NÃO é EPI?\n É um dispositivo de emergência fixo (EPC), usado para lavagem rápida dos olhos/pele em casos de contaminação, atendendo a múltiplas pessoas.",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 17,
-      "question": "",
+      "question": "Assinale a alternativa que apresenta corretamente um Equipamento de Proteção Individual (EPI) para proteção dos membros superiores.",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Protetor auricular",
+          "Respirador",
+          "Calçado",
+          "Dedeira",
+          "Perneira"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 4,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto! Dedeira é um EPI que protege os dedos ou mãos (parte dos membros superiores) contra impactos, cortes ou abrasões.",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 18,
-      "question": "",
+      "question": "Indique a alternativa CORRETA que apresenta os equipamentos de proteção individual (EPI's) em conformidade com a norma regulamentadora 6 (NR-6):",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Botina de proteção contra choques elétricos, luvas de proteção contra vibrações e Ventilação dos locais de trabalho",
+          "Perneira para proteção contra agentes térmicos, Piso antiderrapante e Cinturão de segurança com talabarte",
+          "Isolamento de áreas de risco, Chuveiro de segurança e capacete para proteção contra impactos",
+          "Luvas para proteção contra agentes cortantes, perfurantes ou escoriantes, Protetor auditivo de inserção e botina de proteção contra impactos",
+          "Casaco de proteçÃo de choques elétricos, Óculos de proteção e Protetor facial"
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 3,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto!",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 19,
-      "question": "",
+      "question": "Sobre a seleção dos Equipamentos de Proteção Individual (EPI), conforme a NR 6, deve-se considerar a, EXCETO:",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Atividade exercida.",
+          "Eficácia necessária para o controle da exposição ao risco.",
+          "Adequação do equipamento ao empregado e o conforto oferecido, segundo avaliação do conjunto de empregados.",
+          "Inserção no Programa de Gerenciamento de Riscos – PGR e no Programa de Controle Médico de Saúde Ocupacional – PCMSO.",
+          "Compatibilidade, em casos que exijam a utilização simultânea de vários EPI, de maneira a assegurar as respectivas eficácias para proteção contra os riscos existentes."
       ],
-      "correctOptionIndex": 0,
+      "correctOptionIndex": 2,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto! (NR 6.6.1 e itens obrigatórios):\n A seleção de EPIs deve basear-se em critérios técnicos, não em avaliações coletivas de conforto. O empregador é responsável por:\n Atividade exercida (riscos específicos da função).\n Eficácia necessária (nível de proteção exigido contra o risco).\n Inserção no PGR e PCMSO (integração com programas de SST).\n Compatibilidade entre múltiplos EPIs (uso simultâneo sem perda de eficácia).",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   },
   {
       "id": 20,
-      "question": "",
+      "question": "É obrigatório que os projetos de instalações elétricas especifiquem dispositivos de desligamento com quais características?",
       "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
+          "Impedimento de reenergização e sinalização de advertência.",
+          "Redução de tensão e aumento da corrente.",
+          "Capacidade de religamento automático em caso de falha.",
+          "Integração com sistemas de aquecimento.",
+          "Desligamento remoto via rede sem fio."
       ],
       "correctOptionIndex": 0,
       "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
-      }
-  },
-  {
-      "id": 21,
-      "question": "",
-      "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
-      ],
-      "correctOptionIndex": 0,
-      "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
-      }
-  },
-  {
-      "id": 22,
-      "question": "",
-      "options": [
-          "",
-          "",
-          "",
-          "",
-          ""
-      ],
-      "correctOptionIndex": 0,
-      "explanation": {
-          "correct": "Correto! ",
-          "incorrect": "Incorreto. "
+          "correct": "Correto! \n De acordo com a NR 10.3.1, os projetos de instalações elétricas devem prever dispositivos de desligamento de circuitos com recursos para impedimento de reenergização e sinalização de advertência. Isso ajuda a garantir a segurança durante as intervenções, evitando que o circuito seja energizado de forma inesperada.",
+          "incorrect": "Incorreto. Estude mais sobre o assunto."
       }
   }
 ]

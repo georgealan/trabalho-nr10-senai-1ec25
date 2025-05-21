@@ -990,7 +990,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 /* #### QUIZ NR6 #### */
@@ -1003,6 +1003,6 @@ main {
     width: 100%;
     height: auto;
     max-width: 1500px;
-    margin: 8rem 0 10rem 0;
+    margin: 4rem 0 4rem 0;
 }
 

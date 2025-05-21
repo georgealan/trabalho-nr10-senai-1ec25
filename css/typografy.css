@@ -67,7 +67,7 @@ a {
     font-family: 'Lora Regular';
     text-transform: uppercase;
     font-size: 0.9em;
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--body-black-font);
 }
 
